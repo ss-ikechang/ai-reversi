@@ -1,0 +1,16 @@
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: lightblue;
+	bottom: 0;
+	position: absolute;
+}
+footer::after {
+	content: "Copyright: birdwatcherYT"
+}
+body {
+	min-height: calc(100vh - 30px);
+	position: relative;
+	box-sizing: border-box;
+	padding-bottom: 50px;
+}
